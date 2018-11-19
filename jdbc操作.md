@@ -34,11 +34,9 @@ Select *from 表名；——查看表内容
 
 ./startup.sh    启用。  ./shutdown.sh——停用
 
-<http://localhost:8080>----浏览器输入， 验证 
+<http://localhost:8080>----浏览器输入， 验证成功 
 
-![](/Users/sunjunzhou/Library/Application Support/typora-user-images/image-20181119232211200.png)
-
-成功  
+  
 
 URL：协议http+协议分隔符：//+ip：port + /内容路径
 
