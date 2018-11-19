@@ -1,0 +1,22 @@
+package demo;
+
+import java.sql.DriverManager;
+
+
+//import com.sun.corba.se.pept.transport.Connection;
+
+public class test1 {//数据库
+public static void main(String[] args) {
+	//加载驱动
+	try {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		//链接数据库
+		Connection conn = DriverManager.getConnection("");
+	} catch (ClassNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+}
+}

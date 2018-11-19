@@ -1,0 +1,16 @@
+
+public class Demo1 {
+
+	public static void main(String[] args) { //程序入口
+		byte b=0;
+		byte c=127;
+		byte a='a';
+		
+		
+		// TODO Auto-generated method stub
+		System.out.println("hello world");
+		System.out.println(a);
+		System.out.println("nihaoshijie");
+	}
+
+}
